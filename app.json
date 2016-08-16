@@ -1,0 +1,23 @@
+{
+  "name": "wbq",
+  "description": "miaoshu",
+  "scripts": {
+    "postdeploy": "bin/aaa",
+    "pr-predestroy": "bin/bbb"
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
